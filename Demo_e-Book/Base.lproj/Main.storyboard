@@ -709,19 +709,11 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="tintColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled">
+                                                    <buttonConfiguration key="configuration" style="filled" title="登入">
                                                         <backgroundConfiguration key="background" cornerRadius="22" strokeWidth="2">
                                                             <color key="strokeColor" red="0.23921568630000001" green="0.22352941179999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </backgroundConfiguration>
-                                                        <attributedString key="attributedTitle">
-                                                            <fragment content="登入">
-                                                                <attributes>
-                                                                    <color key="NSBackgroundColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <color key="NSColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="12" name="PingFangTC-Semibold"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
+                                                        <fontDescription key="titleFontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="12"/>
                                                         <directionalEdgeInsets key="contentInsets" top="10" leading="10" bottom="10" trailing="12"/>
                                                         <color key="baseForegroundColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -732,19 +724,11 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="tintColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled">
+                                                    <buttonConfiguration key="configuration" style="filled" title="註冊">
                                                         <backgroundConfiguration key="background" cornerRadius="22" strokeWidth="2">
                                                             <color key="strokeColor" red="0.23921568630000001" green="0.22352941179999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </backgroundConfiguration>
-                                                        <attributedString key="attributedTitle">
-                                                            <fragment content="註冊">
-                                                                <attributes>
-                                                                    <color key="NSColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="12" name="PingFangTC-Semibold"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
+                                                        <fontDescription key="titleFontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="12"/>
                                                         <directionalEdgeInsets key="contentInsets" top="10" leading="10" bottom="10" trailing="10"/>
                                                         <color key="baseForegroundColor" red="0.23921570180000001" green="0.2235293984" blue="0.4941176176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
