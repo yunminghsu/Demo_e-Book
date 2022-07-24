@@ -13,7 +13,7 @@
         <scene sceneID="ZuA-EM-m7G">
             <objects>
                 <tableViewController id="KNe-Y3-0ha" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JKN-Tv-9SN">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JKN-Tv-9SN">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -640,7 +640,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="TyW-ug-lqM">
                         <nil key="title"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="nmR-pW-Ia5">
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="nmR-pW-Ia5">
                             <rect key="frame" x="8" y="5.6666666666666679" width="267.66666666666669" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemIndigoColor"/>
@@ -910,7 +910,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sN3-dZ-xzL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524.61538461538464" y="3362.5592417061612"/>
+            <point key="canvasLocation" x="531" y="3299"/>
         </scene>
         <!--活動-->
         <scene sceneID="Qw4-ut-w2O">
@@ -1308,7 +1308,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szq-2D-Gse" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="643.07692307692309" y="1869.6682464454975"/>
+            <point key="canvasLocation" x="-369" y="1855"/>
         </scene>
         <!--寵物雲-->
         <scene sceneID="n5E-IY-zqf">
@@ -1347,7 +1347,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JeT-Yn-5ss" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-369" y="3362"/>
+            <point key="canvasLocation" x="-363" y="3298"/>
         </scene>
         <!--會員中心-->
         <scene sceneID="zV3-MY-KZY">
@@ -1406,7 +1406,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJy-I2-Ur6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-369.23076923076923" y="4131.7535545023693"/>
+            <point key="canvasLocation" x="-368" y="4029"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Nz7-je-aPG">
@@ -1737,7 +1737,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvX-aA-pSG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524.61538461538464" y="4131.7535545023693"/>
+            <point key="canvasLocation" x="526" y="4029"/>
         </scene>
         <!--新聞-->
         <scene sceneID="YUJ-XT-aGf">
@@ -1847,7 +1847,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHk-t1-nEV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1271" y="3363"/>
+            <point key="canvasLocation" x="-1266" y="3299"/>
         </scene>
         <!--會員中心-->
         <scene sceneID="Ah3-di-h2W">
@@ -1878,7 +1878,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRl-c5-Lnm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1271" y="4132"/>
+            <point key="canvasLocation" x="-1271" y="4029"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="KZu-wB-K1H">
@@ -1889,6 +1889,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance" backgroundEffect="systemMaterial">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
+                        <tabBarAppearance key="scrollEdgeAppearance" backgroundEffect="systemMaterial">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
                     </tabBar>
                     <connections>
                         <segue destination="m62-MY-siM" kind="relationship" relationship="viewControllers" id="4x8-s1-1RT"/>
@@ -2099,7 +2105,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dk4-uQ-ReO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-286.15384615384613" y="1869.6682464454975"/>
+            <point key="canvasLocation" x="-1274" y="1855"/>
         </scene>
     </scenes>
     <resources>
